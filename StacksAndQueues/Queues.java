@@ -49,10 +49,10 @@ public class Queues {
     public static void main(String a[]) {
         Queues queue = new Queues();
         queue.enqueue( 56);
-        queue.dequeue();
         queue.enqueue(30);
-        queue.dequeue();
         queue.enqueue(70);
+        queue.dequeue();
+        queue.dequeue();
         queue.dequeue();
         System.out.println("queue is empty");
     }
